@@ -1,19 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var launchViewModel: LaunchViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView(showsIndicators: false) {
+            ForEach(launchViewModel.launches) { launch in
+                LaunchCard(launch: launch)
+            }
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(LaunchViewModel())
     }
 }

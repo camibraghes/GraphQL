@@ -17,6 +17,7 @@
 		7608779E2948A6E80091B4CD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7608779D2948A6E80091B4CD /* Network.swift */; };
 		760877A12948A7460091B4CD /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 760877A02948A7460091B4CD /* Apollo */; };
 		760877A32948A82E0091B4CD /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760877A22948A82E0091B4CD /* LaunchViewModel.swift */; };
+		760877A52948A8BC0091B4CD /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760877A42948A8BC0091B4CD /* LaunchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7608779B2948A6600091B4CD /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7608779D2948A6E80091B4CD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		760877A22948A82E0091B4CD /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		760877A42948A8BC0091B4CD /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				7608778B29489E600091B4CD /* Preview Content */,
 				7608779D2948A6E80091B4CD /* Network.swift */,
 				760877A22948A82E0091B4CD /* LaunchViewModel.swift */,
+				760877A42948A8BC0091B4CD /* LaunchModel.swift */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760877A52948A8BC0091B4CD /* LaunchModel.swift in Sources */,
 				7608778829489E5F0091B4CD /* ContentView.swift in Sources */,
 				7608779C2948A6600091B4CD /* API.swift in Sources */,
 				7608779E2948A6E80091B4CD /* Network.swift in Sources */,
